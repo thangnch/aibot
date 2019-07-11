@@ -1,0 +1,2774 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_saving_rate",
+        "text": "Tôi muốn hỗ trợ lãi suất tiết kiệm"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "1 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Cho anh hỏi lãi tiết kiệm 1 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Cho anh hỏi lãi gửi tiền 2 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "3 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Mình muốn hỏi lãi suất gửi tiền 3 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "3 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Em ơi bây giờ lãi suất 3 tháng của SHB"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Lãi SHB 2 tháng giờ bao nhiêu"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "1 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Lãi suất SHB gửi 1 tháng có cao"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "6 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Lãi suất tiết kiệm 6 tháng là bao nhiêu"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "6 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Tôi muốn biết lãi suất gửi 6 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "6 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Tôi muốn gửi tiền 6 tháng thì lãi"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "6 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Tôi cần lãi suất tiết kiệm 6 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "1 năm",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Cho hỏi chút lãi SHB 1 năm dạo này cao"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "1 năm",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Cho hỏi chút lãi SHB 1 năm là bao nhiêu"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "8 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Cho anh hỏi lãi 8 tháng bao nhiêu"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi suất tiết kiệm của SHB"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Gửi tiền SHB giờ lãi suất bao nhiêu"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi suất sao"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Chị muốn hỏi về lãi suất"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Tôi hỏi về lãi suất"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi thế nào"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi gửi tiền"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi có cao hơn VCB"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi bây giờ bao nhiêu"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Cho anh hỏi lãi giờ cao"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "text": "Lãi giờ thế nào SHB"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "6 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "6 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "1 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "1 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "1 năm",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "1 năm em ơi"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "1 năm",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Cho anh hỏi 1 năm"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "À cho mình hỏi 2 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "8 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Anh gửi 8 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Mình muốn hỏi lãi 2 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Lãi suất 2 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Lãi gửi 2 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "2 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "Lãi 2 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "01 tháng",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "01 tháng"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "ask_saving_rate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "saving_period"
+          }
+        ],
+        "text": "5 tháng em ah"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Thủ tục vay SHB đơn giản không"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Thủ tục vay SHB"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Anh muốn được hỗ trợ về thủ tục vay"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Chị muốn hỗ trợ thủ tục vay"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Anh muốn hỏi thủ tục vay"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Thủ tục vay"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Vay SHB có dễ"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Vay SHB như nào"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Vay như nào"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "text": "Tôi muốn vay tiền"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "oto",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Thủ tục vay mua oto của SHB như nào"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "nhà",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Thủ tục vay mua nhà giờ sao em"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "nhà",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Vay mua nhà như thế nào"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "kinh doanh",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Tôi muốn hỏi thủ tục vay kinh doanh giờ thế nào"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "du học",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "SHB có cho vay du học"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 25,
+            "end": 27,
+            "value": "xe",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Ngân hàng có cho vay mua xe"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 34,
+            "end": 45,
+            "value": "chứng khoán",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Ngân hàng cho mình có cho vay mua chứng khoán"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "cổ phiếu",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Cho mình hỏi vay mua cổ phiếu"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "du học",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Vay du học có dễ không"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "xe",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Vay Mua xe như nào"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "nhà",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Vay Mua nhà"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "xe",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Vay mua xe"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "xe",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Mua xe oto"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "xe",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Mua xe đi chơi"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "nhà",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Mua cái nhà"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "oto",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Anh cần vay mua oto em"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "chứng khoán",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Anh muốn vay mua chứng khoán"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "du học",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Tôi cần vay du học"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "kinh doanh",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Vay kinh doanh"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "nhà",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Mua nhà em ah"
+      },
+      {
+        "intent": "ask_loan_steps",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "nhà",
+            "entity": "loan_target"
+          }
+        ],
+        "text": "Mua nhà"
+      },
+      {
+        "intent": "report_error",
+        "text": "Tôi muốn hỗ trợ giao dịch lỗi"
+      },
+      {
+        "intent": "report_error",
+        "text": "[Tôi] bị lỗi giao dịch"
+      },
+      {
+        "intent": "report_error",
+        "text": "Anh bị lỗi giao dịch"
+      },
+      {
+        "intent": "report_error",
+        "text": "Chị bị lỗi giao dịch"
+      },
+      {
+        "intent": "report_error",
+        "text": "Lỗi giao dịch"
+      },
+      {
+        "intent": "report_error",
+        "text": "Em bị lỗi giao dịch"
+      },
+      {
+        "intent": "report_error",
+        "text": "Tôi không chuyển tiền đi được"
+      },
+      {
+        "intent": "report_error",
+        "text": "Nạp tiền bị lỗi"
+      },
+      {
+        "intent": "report_error",
+        "text": "Anh không nạp tiền được"
+      },
+      {
+        "intent": "report_error",
+        "text": "Không thể thanh toán được"
+      },
+      {
+        "intent": "report_error",
+        "text": "Tôi chuyển khoản bị lỗi"
+      },
+      {
+        "intent": "report_error",
+        "text": "Hệ thống lỗi quá em ơi"
+      },
+      {
+        "intent": "report_error",
+        "text": "Tôi không giao dịch được"
+      },
+      {
+        "intent": "report_error",
+        "text": "Lỗi chuyển tiền"
+      },
+      {
+        "intent": "report_error",
+        "text": "Lỗi giao dịch"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "1000010000",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số tài khoản của tôi là 1000010000"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "1000012111",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số tài khoản là 1000012111"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "1020010000",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Tài khoản của tôi là 1020010000"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "1022210000",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Tài khoản là 1022210000"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "1022210000",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Tài khoản của anh là 1022210000 em nhé"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "1022210000",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Tài khoản 1022210000"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1000110030",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "1000110030"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "0904376574",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số điện thoại của tôi là 0904376574"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "0904376574",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số điện thoại là 0904376574"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "0903221475",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Điện thoại của tôi là 0903221475"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "0903232112",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Điện thoại là 0903232112"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "0902111111",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "0902111111"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "0902111111",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số của tôi là 0902111111"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "123242",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Mã OTP là 123242"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "464345",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "464345"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "584543",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Mã xác thực là 584543"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "234654",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "OTP là 234654"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "343422",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Mã của tôi là 343422"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "232866",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Mã xác thực 232866"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "434234",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "OTP 434234"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "232367",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Xác thực là 232367"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "895444",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "895444 là mã xác thực"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "031083002901",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số chứng minh nhân dân là 031083002901"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "012122061343",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "012122061343"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "031083002901",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số chứng minh là 031083002901"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "012122061",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Chứng minh thư là 012122061"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "031083002901",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số chứng minh của tôi là 031083002901"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "031268562901",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "Số chứng minh nhân dân của anh là 031268562901"
+      },
+      {
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "113399510",
+            "entity": "inp_number"
+          }
+        ],
+        "text": "113399510"
+      },
+      {
+        "intent": "open_account",
+        "text": "[Tôi] muốn mở tài khoản thanh toán SHB"
+      },
+      {
+        "intent": "open_account",
+        "text": "Anh muôn mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Em mở giúp anh tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Chị cần mở tài khoan tại SHB"
+      },
+      {
+        "intent": "open_account",
+        "text": "Cô cần mở tài khoản SHB"
+      },
+      {
+        "intent": "open_account",
+        "text": "Muốn mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Cần mở tài khoản thanh toán"
+      },
+      {
+        "intent": "open_account",
+        "text": "Muốn mở tài khoản SHB"
+      },
+      {
+        "intent": "open_account",
+        "text": "Cho tôi mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Cho tôi hỏi thủ tục mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Thủ tục mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Cách mở tài khoản SHB"
+      },
+      {
+        "intent": "open_account",
+        "text": "Mở tài khoản tại SHB như nào"
+      },
+      {
+        "intent": "open_account",
+        "text": "Hãy mở tài khoản cho tôi"
+      },
+      {
+        "intent": "open_account",
+        "text": "Chị muốn mở tài khoản bên em có được không"
+      },
+      {
+        "intent": "open_account",
+        "text": "Cho anh hỏi mở tài khoản bên em được không"
+      },
+      {
+        "intent": "open_account",
+        "text": "Anh muốn hỏi về mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Tôi cần mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Mở tài khoản"
+      },
+      {
+        "intent": "open_account",
+        "text": "Tài khoản SHB"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "[Tôi] muốn mở thẻ tín dụng SHB"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Anh muôn mở thẻ tín dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Em mở giúp anh thẻ tín dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Chị cần mở thẻ tín dụng tại SHB"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Cô cần mở thẻ tín dụng SHB để chi tiêu"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Muốn mở thẻ tín dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Cần mở thẻ tín dụng để sử dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Muốn mở thẻ tín dụng tại SHB"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Cho tôi mở thẻ tín dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Cho tôi hỏi thủ tục mở thẻ tín dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Thủ tục mở thẻ tín dụng"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Cách mở thẻ tín dụng SHB"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Mở thẻ tín dụng tại SHB như nào"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Hãy mở thẻ tín dụng cho tôi"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Tôi muốn mở thẻ"
+      },
+      {
+        "intent": "open_credit_card",
+        "text": "Cần mở thẻ"
+      },
+      {
+        "intent": "greet",
+        "text": "Xin chào SHB"
+      },
+      {
+        "intent": "greet",
+        "text": "Xin chào"
+      },
+      {
+        "intent": "greet",
+        "text": "Chào em"
+      },
+      {
+        "intent": "greet",
+        "text": "Chào SHB"
+      },
+      {
+        "intent": "greet",
+        "text": "Chào bạn"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi SHB"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bạn"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi em"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Alo"
+      },
+      {
+        "intent": "greet",
+        "text": "Tôi cần hỗ trợ"
+      },
+      {
+        "intent": "greet",
+        "text": "Tôi cần giúp đỡ"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Chào"
+      },
+      {
+        "intent": "greet",
+        "text": "Giúp tôi"
+      },
+      {
+        "intent": "greet",
+        "text": "Blo"
+      },
+      {
+        "intent": "greet",
+        "text": "Clo"
+      },
+      {
+        "intent": "greet",
+        "text": "Chào SHB. Tôi muốn hỏi tý được"
+      },
+      {
+        "intent": "greet",
+        "text": "SHB ơi cho hỏi tý"
+      },
+      {
+        "intent": "greet",
+        "text": "Cho mình hỏi tẹo được"
+      },
+      {
+        "intent": "greet",
+        "text": "Tôi cần trợ giúp"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Anh",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Thắng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Anh Thắng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chị",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Hồng An",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chị Hồng An"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Anh",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Nam",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Anh tên là Nam"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chị",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "Chi",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chị tên Chi"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Vương",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tên Vương"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "Hùng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Vâng, Hùng nhé"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chị",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Trang",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chị Trang"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chị",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chị là Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Trang",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Trang em nhé"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Hồng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Hồng nhé"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Anh",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 8,
+            "end": 26,
+            "value": "Nguyễn Chiến Thắng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Anh tên Nguyễn Chiến Thắng em nhé"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Chị",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "Thanh Hương",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Có, Chị tên Thanh Hương nhé"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chị",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 18,
+            "value": "Trần Thị Giang",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chị Trần Thị Giang"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Cô",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "Chi",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Cô tên Chi"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "Chú",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "Hùng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Vâng, Chú Hùng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chú",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 8,
+            "end": 23,
+            "value": "Vương Tiến Đoàn",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chú tên Vương Tiến Đoàn"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Cô",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 6,
+            "end": 20,
+            "value": "Nguyễn Thị Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Cô là Nguyễn Thị Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Anh",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Tuấn Đẹp Trai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Anh là Tuấn Đẹp Trai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Cô",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 6,
+            "end": 18,
+            "value": "Huệ Xinh Gái",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Cô là Huệ Xinh Gái"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Chú",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 11,
+            "end": 25,
+            "value": "Nguyễn Thị Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Chú tên là Nguyễn Thị Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Mình",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Dạ, Mình tên là Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "Em",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Dạ. Em tên là Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Thắng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Thắng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Nguyễn Thị Hồng Anh",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Nguyễn Thị Hồng Anh"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Bùi Thị Mai",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Bùi Thị Mai"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 15,
+            "end": 30,
+            "value": "Trần Công Dương",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Có. Tôi tên là Trần Công Dương"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Anh",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 15,
+            "end": 25,
+            "value": "Hùng Thắng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Có, Anh tên là Hùng Thắng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Công",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tên tôi là Công"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Trần Công",
+            "entity": "cust_name"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "tôi",
+            "entity": "cust_sex"
+          }
+        ],
+        "text": "Trần Công là tên tôi"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Trần Công",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Trần Công"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Công",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tôi tên là Công"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Gấu",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Có, Tôi là Gấu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Gấu",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Có. Tôi là Gấu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mình",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Thúy",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Mình là Thúy"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "value": "Thắng",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "A Thắng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "Hồng Anh",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "C Hồng Anh"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "value": "Huy Thanh",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "A Huy Thanh"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "Mỹ Nhân",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "C Mỹ Nhân"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Công",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Công"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Trần Công",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tôi là Trần Công"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 7,
+            "end": 22,
+            "value": "Trần Trọng Công",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tôi là Trần Trọng Công"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Thắng",
+            "entity": "cust_sex"
+          }
+        ],
+        "text": "Là Thắng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Trần Công",
+            "entity": "cust_sex"
+          }
+        ],
+        "text": "Là Trần Công"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Anh cảm thấy mệt"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Anh muốn tâm sự với em"
+      },
+      {
+        "intent": "chatchit",
+        "text": "muốn hẹn hò với em"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Hẹn hò"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Anh muốn fuck em"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Mình đi chơi đi"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Anh muốn đi massage"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Mình yêu nhau đi"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Hôm nay trời đẹp quá"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Đi chơi với anh đi"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Đi chơi đi"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Đi nhà nghỉ đi"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Vào nhà nghỉ với anh không"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Xoạc nhau đi"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Đi nhà nghỉ"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Đi nhà nghỉ không"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Anh yêu em"
+      },
+      {
+        "intent": "chatchit",
+        "text": "Tôi yêu em"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Em tên là gì thế"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Tên em là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Tên em"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Tên bạn"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Bạn tên là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Bot tên gì thế"
+      },
+      {
+        "intent": "ask_name",
+        "text": "Em tên gì"
+      },
+      {
+        "intent": "shit",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "shit",
+        "text": "Fuck SHB"
+      },
+      {
+        "intent": "shit",
+        "text": "Fuck"
+      },
+      {
+        "intent": "shit",
+        "text": "Fuck shit"
+      },
+      {
+        "intent": "shit",
+        "text": "Fuck bot"
+      },
+      {
+        "intent": "shit",
+        "text": "Cứt"
+      },
+      {
+        "intent": "shit",
+        "text": "Stupid bot"
+      },
+      {
+        "intent": "shit",
+        "text": "Shit"
+      },
+      {
+        "intent": "shit",
+        "text": "Holy shit"
+      },
+      {
+        "intent": "shit",
+        "text": "Ngu vãi"
+      },
+      {
+        "intent": "shit",
+        "text": "Mày rất ngu"
+      },
+      {
+        "intent": "shit",
+        "text": "Ngu ngốc"
+      },
+      {
+        "intent": "shit",
+        "text": "Điên ah"
+      },
+      {
+        "intent": "shit",
+        "text": "Đéo hiểu gì"
+      },
+      {
+        "intent": "shit",
+        "text": "Nói mãi đéo hiểu"
+      },
+      {
+        "intent": "shit",
+        "text": "Địt mẹ mày"
+      },
+      {
+        "intent": "shit",
+        "text": "Địt cụ mày"
+      },
+      {
+        "intent": "shit",
+        "text": "Con chó chết"
+      },
+      {
+        "intent": "shit",
+        "text": "Không hiểu gì ah"
+      },
+      {
+        "intent": "shit",
+        "text": "Nói mãi không hiểu"
+      },
+      {
+        "intent": "thank",
+        "text": "Đẹp đấy"
+      },
+      {
+        "intent": "thank",
+        "text": "Cảm ơn em"
+      },
+      {
+        "intent": "thank",
+        "text": "Cảm ơn em nhiều nhé"
+      },
+      {
+        "intent": "thank",
+        "text": "Cảm ơn"
+      },
+      {
+        "intent": "thank",
+        "text": "Tốt quá, cảm ơn em"
+      },
+      {
+        "intent": "thank",
+        "text": "Cảm ơn SHB"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks em nhé"
+      },
+      {
+        "intent": "thank",
+        "text": "Hehe, thanks em nhiều"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks nhá"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you em nhiều"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks SHB"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks SHB nhé"
+      },
+      {
+        "intent": "bye",
+        "text": "Chào nhé"
+      },
+      {
+        "intent": "bye",
+        "text": "Tạm biệt"
+      },
+      {
+        "intent": "bye",
+        "text": "Chào tạm biệt"
+      },
+      {
+        "intent": "bye",
+        "text": "Chào tạm biệt em"
+      },
+      {
+        "intent": "bye",
+        "text": "Tạm biệt em"
+      },
+      {
+        "intent": "bye",
+        "text": "Tạm biệt em nhé"
+      },
+      {
+        "intent": "bye",
+        "text": "Tạm biệt SHB nhé"
+      },
+      {
+        "intent": "bye",
+        "text": "Cút"
+      },
+      {
+        "intent": "bye",
+        "text": "Biến"
+      },
+      {
+        "intent": "bye",
+        "text": "Xéo"
+      },
+      {
+        "intent": "bye",
+        "text": "Đi đi"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye"
+      },
+      {
+        "intent": "bye",
+        "text": "Nghỉ đi"
+      },
+      {
+        "intent": "bye",
+        "text": "Nghỉ"
+      },
+      {
+        "intent": "inform_send_data_ok",
+        "text": "client####"
+      },
+      {
+        "intent": "inform_send_data_ok",
+        "text": "client#"
+      },
+      {
+        "intent": "inform_send_data_ok",
+        "text": "client##"
+      },
+      {
+        "intent": "inform_send_data_ok",
+        "text": "client############"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "ok"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Có em"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Có cần"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Có"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Được"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Đồng ý"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Okie"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Xong"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Được rồi"
+      },
+      {
+        "intent": "inform_yes",
+        "text": "Yes"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Không cần"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Không"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Không nhu cầu"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Không có"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Không em"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Thôi"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Không cần gì"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Chả cần gì"
+      },
+      {
+        "intent": "inform_no",
+        "text": "Chẳng có gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Bạn có thể làm gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Em giúp được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Em làm được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Mày biết làm gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Em biết làm gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Bạn biết làm gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Biết làm gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Làm được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Có làm được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Có làm được trò gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Giúp giúp cái gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Biết gì mà nói"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Làm được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Giúp được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Mày làm được gì"
+      },
+      {
+        "intent": "ask_func_list",
+        "text": "Có biết gì"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Dạo này SHB có sản phẩm gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "SHB có gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì mới không em"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có cái gì mới khoe anh không"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì cần khoe không"
+      },
+      {
+        "intent": "ask_news",
+        "text": "SHB có gì hay ho"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Ngân hàng em có gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Ngân hàng SHB có gì hay ho"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì hot"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì hay"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có món gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có trò gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "SHB có chiêu gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Dạo này SHB ổn chứ"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì hot em"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Chi nhánh SHB gần nhất ở đâu"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "SHB gần nhất"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Chi nhánh gần nhất"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Điểm giao dịch",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Điểm giao dịch gần nhất"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Phòng giao dịch",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Phòng giao dịch gần tôi"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Chi nhánh gần đây"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "SHB gần đây"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Tôi muốn tìm SHB"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Tôi muốn tìm Chi nhánh SHB gần tôi"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "Điểm giao dịch",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Tôi muốn tìm Điểm giao dịch"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Cho chị hỏi Chi nhánh SHB"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Muốn hỏi SHB gần đây"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "SHB gần nhất ở đâu"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Chi nhánh SHB gần đây"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Chi nhánh gần đây"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Anh cần hỏi về SHB gần đây"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "SHB",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Tôi muốn hỏi về địa chỉ SHB"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "chi nhánh",
+            "entity": "loc_type"
+          }
+        ],
+        "text": "Chị muốn tìm chi nhánh SHB"
+      },
+      {
+        "intent": "ask_news",
+        "text": "SHB có gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì mới không em"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có cái gì mới khoe anh không"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì cần khoe không"
+      },
+      {
+        "intent": "ask_news",
+        "text": "SHB có gì hay ho"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Ngân hàng em có gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Ngân hàng SHB có gì hay ho"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì hot"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì hay"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có món gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có trò gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "SHB có chiêu gì mới"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Dạo này SHB ổn chứ"
+      },
+      {
+        "intent": "ask_news",
+        "text": "Có gì hot em"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "inp_number",
+        "pattern": "[0-9]{*}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

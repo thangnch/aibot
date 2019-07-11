@@ -1,0 +1,44 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "loan_target",
+        "saving_period"
+      ]
+    },
+    "utter_greet_with_name": {
+      "slots": []
+    },
+    "utter_func_list": {
+      "slots": []
+    },
+    "utter_ask_name": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "action_ask_news": {
+      "slots": []
+    },
+    "action_ask_location": {
+      "slots": []
+    }
+  },
+  "python": "3.7.3",
+  "max_histories": [
+    1,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190711-170731",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}

@@ -1,0 +1,45 @@
+intents:
+# Ý đồ khách hàng
+ - greet
+ - give_name
+ - thank
+ - bye
+ - ask_news
+ - ask_func_list
+ - shit
+ 
+entities:
+# Các thực thể
+ - loc_type
+
+
+slots:
+  
+  loc_type:
+    auto_fill: true
+    type: text
+
+templates:
+# Bot trả lời
+ utter_greet:
+  - text: "Kính chào Quý khách, Quý khách vui lòng cho SHB biết quý danh để tiện xưng hô được không ạ?"
+  - text: "Kính chào Quý khách, xin Quý khách cho biết quý danh được không ạ?"
+ utter_bye:
+  - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
+  - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+ utter_ask_name:
+  - text: "Em họ Chat, tên Bot! Người ta hay gọi em là Chat Bot thông minh xinh đẹp giỏi giang nhất vũ trụ ah! {cust_sex} cần trợ giúp gì ạ?"
+ utter_unclear:
+  - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách. Quý khách vui lòng sử dụng các câu ngắn gọn như 'Tôi muốn hỏi lãi suất SHB','Anh cần hỏi thủ tục vay','SHB gần nhất' hay 'Mở thẻ tín dụng'...hoặc gọi 1800.5888.56 (miễn phí) để được hỗ trợ!"
+
+
+
+
+actions:
+# templates (as they are reply actions),
+# also custom actions if any
+ - utter_greet
+ - utter_greet_with_name
+ - utter_bye
+ - utter_unclear
+ 
